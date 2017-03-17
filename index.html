@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    	<title>大厅官网</title>
+
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/index.css" rel="stylesheet">
+    	<!--[if lt IE 9]>
+      	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  		<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">大厅官网</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">下载</a></li>
+            <li><a href="#">充值</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container-fluid bannerlayer">
+    	<div class="row">
+    		<img src="images/pcBanner.png" class="center-block img-responsive">
+    	</div>
+    	<div class="row">
+    		<div class="col-xs-12 col-sm-12 col-md-12 switchlayer">
+    			<div class="col-xs-4 col-sm-4 col-md-4 download ">下载</div>
+    			<div class="col-xs-4 col-sm-4 col-md-4 recharge btnactive">充值</div>
+    		</div>
+    	</div>
+    	<div class="row">
+	    	<div class="col-xs-10 col-sm-10 col-md-10 forminput">
+	    		<form>
+				  <div class="form-group">
+				    <label for="gaameid">游戏ID</label>
+				    <input type="text" class="form-control" id="gaameid" placeholder="游戏ID">
+				  </div>
+				  <div class="form-group">
+				    <label for="cachpt">验证码</label>
+				    <input type="text" class="form-control" id="cachpt" placeholder="验证码">
+				  </div>
+				  <button type="submit" class="btn btn-success">Submit</button>
+				</form>
+	    	</div>
+    	</div>
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
